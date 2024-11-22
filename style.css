@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    color: #333;
+    line-height: 1.6;
+    
+	
+}
+
+
+
+header {
+    background-color: #562cc2;
+    color: white;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+	
+	
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+	margin-left: 350px;
+	
+}
+
+header div {
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2.5rem;
+	
+	
+	
+}
+
+.Frase h2 {
+    text-align: center;
+    color: #562cc2;
+    
+
+}
+
+.publico-atendido h2 {
+   background-color: #562cc2;
+}
+
+
+
+header p {
+    font-size: 1.2rem;
+	margin-top: 80px;
+   
+
+}
+
+nav {
+    background-color: #2059d5; 
+    padding: 10px 20px; 
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.menu li {
+    margin: 0 10px; 
+}
+
+.menu a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
+}
+
+.menu a:hover {
+    background-color: #2c54c2; 
+    border-radius: 5px; 
+}
+
+header {
+    background-color:;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#topicos h2 {
+    color: #562cc2;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.form-container {
+    width: 230px;
+    margin-left: 1990px;
+    margin: 0 auto; 
+    text-align:justify;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+#servicos2 {
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.caixa {
+    background-color: #130ce8; 
+    color: white; 
+    margin: 10px auto; 
+    padding: 15px; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    width: 80%;
+    
+}
+
+.caixa:hover {
+    background-color: #562cc2; 
+}
+
+.conteudo {
+    display: none; 
+    padding-top: 10px; 
+}
+
+
+#servicos ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+#servicos li {
+    background-color: #7932ab; 
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+	text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a i {
+    transition: transform 0.3s;
+}
+
+a i:hover {
+    transform: scale(1.1); 
+}
+
+
+
+.whatsapp-link {
+    text-decoration: none; 
+    display: inline-block; 
+     
+} 
+
+.whatsapp-icon {
+    width: 40px; 
+    height: 40px; 
+    transition: transform 0.3s ease; 
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1); 
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+  
+}
+    
+
+.sobre-container h2 {
+   color: #0066cc;
+   border-radius: 3px;
+
+}
+
+.imagem-sobre {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    margin-right: 15px; 
+}
+
+#sobre p {
+    text-align: justify; 
+    color: #0066cc;
+}
+
+.meu-trabalho h2 {
+    color: #0066cc;
+
+}
+
+.publico-atendido {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #0066cc;
+    color: #f1f1f1;
+    width: 310px;
+    margin-left: 480px;
+   border-radius: 12px;
+}
+
+.publico-atendido p {
+    font-size: 20px;
+}
+
+#servicos {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    
+    
+}
+
+.servico img {
+  height: 100px;
+  width: 100px;
+}
+
+.servico {
+    display: inline-block; 
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    transition: transform 0.3s; 
+    background-color: #0066cc;
+    color: #f0f8ff;
+}
+
+.servico:hover {
+    transform: scale(1.05); 
+}
+
+.icone {
+    width: 250px; 
+    height: 250px; 
+    margin-bottom: 10px; 
+}
+
+/* .contato img {
+    width: 250px;
+    height: 250px;
+} */
+
+
+.faq {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #0066cc;
+}
+
+.faq-answer {
+    padding: 10px;
+    display: none;
+    /* background-color: #0066cc; */
+    border-left: 3px solid #0066cc;
+    margin-top: 5px;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+
+.accordion {
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+
+
+
+.panel {
+    display: none;
+    overflow: hidden;
+    padding: 0 15px;
+    background-color: #f1f1f1;
+    text-align: justify;
+}
+
+
+.panel.show {
+    display: block;
+}
+
+
+.consulta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .consulta-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .consulta-form input,
+  .consulta-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .consulta-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .consulta-form textarea {
+    resize: vertical;
+  }
+  
+  .form-button {
+    background-color: #130ce8;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0a0b91;
+  }
+  
+  .consulta-container {
+    width: 50px;
+    
+  }
+
+  .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #562cc2;
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #562cc2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #130ce8;
+}
+
+   
+
+footer {
+    /* background-color: #87ceeb; */
+    background-color: #0066cc;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    color: #f0f8ff;
+}
+
+/* Responsividade para dispositivos com largura máxima de 768px */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    header img {
+        margin-left: 0;
+        width: 100px;
+        height: 100px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .publico-atendido {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-container, .consulta-container, .faq {
+        width: 90%;
+    }
+}
+
+/* Responsividade para dispositivos com largura máxima de 480px */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .form-container, .consulta-container, .faq {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .caixa, .servico, .accordion, .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
