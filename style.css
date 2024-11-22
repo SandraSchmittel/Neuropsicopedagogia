@@ -308,10 +308,15 @@ a i:hover {
 }
 
 .icone {
-    width: 50px; 
-    height: 50px; 
+    width: 250px; 
+    height: 250px; 
     margin-bottom: 10px; 
 }
+
+/* .contato img {
+    width: 250px;
+    height: 250px;
+} */
 
 
 .faq {
